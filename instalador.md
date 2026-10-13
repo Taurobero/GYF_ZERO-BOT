@@ -2,8 +2,6 @@
 
 Guía para obtener el proyecto desde GitHub, instalar dependencias y enlazar WhatsApp en Termux (incluido Huawei P40 Lite con EMUI 12).
 
-> Antes de empezar, publica el proyecto en tu cuenta de GitHub y sustituye `USUARIO` y `REPOSITORIO` en el comando de clonación por los datos reales. No publiques `.env`, `data/` ni credenciales de WhatsApp.
-
 ## 1. Instalar Termux
 
 Instala Termux desde una fuente oficial y mantenlo actualizado. Evita mezclar Termux de distintas fuentes, porque sus complementos deben proceder de la misma fuente. Abre Termux y ejecuta:
@@ -40,8 +38,8 @@ Cambia `USUARIO` por la cuenta u organización propietaria y `REPOSITORIO` por e
 
 ```sh
 cd ~
-git clone https://github.com/USUARIO/REPOSITORIO.git
-cd REPOSITORIO
+git clone https://github.com/Taurobero/GYF_ZERO-BOT
+cd GYF_ZERO-BOT
 ```
 
 Para un repositorio privado, configura el acceso a GitHub de forma segura en Termux antes de clonar. No pongas contraseñas, tokens o claves dentro de la URL ni los compartas en el chat.
